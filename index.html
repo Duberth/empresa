@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Empresa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0044cc;
+            padding-bottom: 0.5rem;
+        }
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .project-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            width: calc(33% - 2rem);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Empresa de Arquitectura</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>Bienvenido a Mi Empresa de Arquitectura. Nos dedicamos a diseñar y construir espacios innovadores y funcionales que satisfacen las necesidades de nuestros clientes. Nuestro equipo está formado por profesionales con amplia experiencia en el sector.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Proyectos</h2>
+            <div class="project">
+                <div class="project-item">
+                    <img src="proyecto1.jpg" alt="Proyecto 1">
+                    <h3>Proyecto Residencial</h3>
+                    <p>Descripción breve del proyecto residencial.</p>
+                </div>
+                <div class="project-item">
+                    <img src="proyecto2.jpg" alt="Proyecto 2">
+                    <h3>Proyecto Comercial</h3>
+                    <p>Descripción breve del proyecto comercial.</p>
+                </div>
+                <div class="project-item">
+                    <img src="proyecto3.jpg" alt="Proyecto 3">
+                    <h3>Proyecto Urbano</h3>
+                    <p>Descripción breve del proyecto urbano.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Para más información, por favor contáctenos a través del correo electrónico: contacto@miempresa.com o llámenos al (123) 456-7890.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mi Empresa de Arquitectura. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
